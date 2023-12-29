@@ -5,3 +5,4 @@ gTTS==2.5.0
 aiortc==1.6.0
 streamlit_webrtc==0.47.1
 pydub==0.25.1
+openai==0.28.1
