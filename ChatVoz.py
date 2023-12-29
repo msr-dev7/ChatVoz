@@ -9,7 +9,7 @@ from streamlit_webrtc import webrtc_streamer, VideoProcessorBase, RTCConfigurati
 from pydub import AudioSegment
 import time
 
-openai_api_key = st.sidebar.text_input('Chave da API OpenAI', type='password')
+openai_api_key = st.secrets["my_secret"]["OPENAI_API_KEY"]
 recognized_text = ""
 recorder = None
 
