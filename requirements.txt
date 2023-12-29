@@ -1,0 +1,7 @@
+streamlit==1.29.0
+SpeechRecognition==3.10.1
+langchain==0.0.351
+gTTS==2.5.0
+aiortc==1.6.0
+streamlit_webrtc==0.47.1
+pydub==0.25.1
